@@ -1,0 +1,133 @@
+.container_inst {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.border{
+  height: 395px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+  .border:hover{
+    border: 1px solid white;
+  }
+
+
+  .carda{
+  height: 400px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -45px #000000;
+  box-shadow: 43px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 3px solid black;
+  }
+
+  .card0{
+  background: url('hl.jpeg') right -65px center no-repeat;
+  background-size: 500px;
+}
+
+h2{
+    opacity: 0;
+}
+.icons{
+    opacity: 0;
+}
+
+
+  .card00:hover{
+    background:  url('hl.jpeg')center center no-repeat;
+    background-size: 650px;
+  }
+
+    .card00:hover  h2{
+      opacity: 1;
+      }
+      .card00:hover  .icons{
+      opacity: 1;
+      }
+
+    
+
+.card01{
+  background: url('th.jpeg') right -65px center no-repeat;
+  background-size: 500px;}
+
+  .card01:hover{
+    background: url('th.jpeg');
+    background-position: center center ;
+    background-repeat:no-repeat;
+    background-size: 650px;
+     }
+
+     .card01:hover  h2{
+      opacity: 1;
+      }
+      .card01:hover  .icons{
+      opacity: 1;
+      }
+
+.card02{
+  background: url('/assets/code-with-harry-founder-haris-khan\ \(1\).jpg') ;
+  background-position: right -4px center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+.card02:hover{
+    background: url('code-with-harry-founder-haris-khan\ \(1\).jpg');
+    background-position: right -45px center ;
+    background-repeat:no-repeat;
+    background-size: 600px;
+     }
+      .card02:hover  h2{
+      opacity: 1;
+      }
+      .card02:hover  .icons{
+      opacity: 1;
+      }
+
+.carda .border h2{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+/* .icons{
+  opacity: 0;
+  transition: opacity 1s;
+} */
+
+
+  .icons{
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  }

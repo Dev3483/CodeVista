@@ -1,0 +1,230 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        section {
+            position: relative;
+            min-height: 100vh;
+            width: 100%;
+            background-image: url("wp7559879.jpg");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            perspective: 1000px;
+        }
+
+      
+       
+
+        .container {
+            position: relative;
+            height: 90vh;
+            width: 95vw;
+            z-index: 100;
+            transition: 0.6s;
+            transform-style: preserve-3d;
+        }
+
+       
+
+        .container .card {
+            /* position: absolute; */
+            height: 100%;
+            width: 100%;
+            padding: 25px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .child1{
+            height: 100%;
+            width: 30%;
+            margin: 0;
+            padding: 0;
+        }
+        .vl {
+  border-left: 2px solid rgba(214, 199, 199, 0.25);
+  height: 100%;
+  position: absolute;
+  left: 30%;
+  margin-left: -3px;
+  top: 0;
+}
+        .child2{
+            height: 100%;
+            width: 70%;
+        }
+        .profile{
+            margin-top: 60px;
+        }
+        .child1 img{
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .child1 h3{
+            margin-top: 8px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .option{
+            margin-top: 20px;
+            margin-left: 25px;
+            margin-right: auto;
+        }
+        .child1 .op{
+            display: flex;
+            align-items:flex-end;
+            height: 30px;
+            width: 90%;
+            margin: 10px;
+            line-height: 0px;
+            font-weight:normal;
+            border-radius: 4px;
+
+        }
+        .op h4{
+            text-align: center;
+            margin-left: 15px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .op .icon{
+            margin-left: 40px;
+            font-size: 20px;
+        }
+        .op:hover{
+            background-color: rgba(181, 210, 211, 0.25);
+            cursor: pointer;
+        }
+        .child1 hr{
+            opacity: 20%;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container1{
+            margin-left: 50px;
+            margin-right: 50px;
+            display: block;
+
+        }
+        .personelinfo{
+            margin-top: 50px;
+        }
+        .container1 .personelinfo h3{
+            text-align: left;
+            font-weight: normal;
+        }
+        .container1 .personelinfo h4{
+            text-align: left;
+            font-weight: normal;
+        }
+        .container1 .name{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+         label{
+            font-size: 15px;
+            font-weight: normal;
+        }
+         input{
+            width: 300px;
+            height: 35px;
+            background-color: rgba(47, 197, 247, 0.443);
+            border: 0px;
+            border-radius: 5px;
+            font-family: "Poppins", sans-serif;
+            color: white;
+            padding: 5px;
+        }
+        .emailandphone{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+       .countryandcity{
+         display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+       }
+       .user .username{
+            margin-top: 30px;
+       }
+       .container1 hr{
+        margin-top: 40px;
+        opacity: 20%;
+        width: 100%;
+       }
+        .container1 button{
+            margin-top: 25px;
+            width: 125px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: rgba(44, 176, 252, 0.379);
+            color: whitesmoke;
+            border: 0px;
+            cursor: pointer;
+            font-family: "Poppins", sans-serif;
+        }
+        .changepass{
+             margin-left: 50px;
+            margin-right: 50px;
+            display: none;
+        }
+        .changepass h3{
+            margin-top: 40px;
+            font-weight: normal;
+        }
+       
+        .pass{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .pa{
+            margin-top: 30px;
+        }
+        .pa input{
+            margin-top: 5px;
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+        .changepass hr{
+            margin-top: 25px;
+            opacity: 10%;
+            width: 100%;
+        }
+        .changepass button{
+             margin-top: 25px;
+            width: 125px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: rgba(44, 176, 252, 0.379);
+            color: whitesmoke;
+            border: 0px;
+            cursor: pointer;
+        }

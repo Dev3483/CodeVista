@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+<script src="https://kit.fontawesome.com/6d37cf477d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Code Editor</title>
+</head>
+<body>
+    
+        <div class="code-editor">
+        <div class="container">
+            <div class="menu">
+                <div class="button" id="btn_html">
+                    <i class="fa-brands fa-html5" style="color: #f2712c;"></i>
+                    <h5>HTML</h5>
+                </div>
+                <div class="button" id="btn_css">
+                    <i class="fa-brands fa-css3-alt" style="color: #35a6fd;"></i>
+                    <h5>CSS</h5>
+                </div>
+                <div class="button" id="btn_js">
+                    <i class="fa-brands fa-square-js" style="color: #FFD43B;"></i>
+                    <h5>JAVASCRIPT</h5>
+                </div>
+                <div class="button" id="btn_copy">
+                    <i class="fa-regular fa-copy" style="color: #16164a;"></i>
+                    <h5>Copy</h5>
+                </div>
+                <div class="button button1" id="btn_run">
+                    <h5>RUN</h5>
+                </div>
+            </div>
+            <div class="code-panel">
+                <div class="html" id="compiler_html">
+                    <textarea id="html" placeholder="Insert Your HTML Code"></textarea>
+                </div>
+                <div class="css" id="compiler_css">
+                    <textarea id="css" placeholder="Insert Your CSS Code"></textarea>
+                </div>
+                <div class="js" id="compiler_js">
+                    <textarea id="js" placeholder="Insert Your JavaScript Code"></textarea>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="output">
+            <iframe id="code"></iframe>
+    
+        </div>
+    </div>
+
+    <h3>
+        naren
+    </h3>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
