@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    /* scroll-behavior: smooth; */
+}
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+button {
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+button:hover {
+    /* background-color: burlywood; */
+    border-bottom: 2px solid  #6c757d;
+}
+.navigastion {
+    top: 0;
+    background-color: #373632;
+    height: 65px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+.logo {
+    position: fixed;
+    top: 0;
+    right: 90%;
+    left: 2.5%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding: 15px;
+    z-index: 10;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.contain {
+    width: 100vw;
+    height: 100vh;
+    background: #100e09;
+    overflow: hidden;
+}
+.container{
+    background-color:  rgb(37,40,39);
+}
+
+.code-editor{
+    display: flex;
+    height: 600px;
+    margin-left: 60px;
+    color: white;
+}
+.para{
+    width: 50%;
+}
+.p-1 {
+    position: relative;
+    top: 190px;
+    text-align: left;
+}
+
+.p-2 {
+    position: relative;
+    top: 195px;
+}
+.para p{
+    position: relative;
+    top: 200px;
+}
+.img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    
+    width: 85%;
+}
+.courses {
+    display: flex;
+    height: 600px;
+    margin-left: 60px;
+    color: white;
+}
+.para1{
+    width: 50%;
+    text-align: left;
+}
+.p1{
+    position: relative;
+    top: 150px;
+    text-align: left;
+}
+.p2{
+    position: relative;
+    top: 155px;
+}
+.para1 p{
+    position: relative;
+    top: 160px;
+}
+.img1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 img{
+    width: 80%;
+}
+.footer{
+    height: 350px;
+    
+}
+
+
+
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 0.4;
+    height: 2px;
+}
+footer
+{
+    bottom:0px;
+    height:100%;
+    width: 100%;
+    background-color: #373632;
+    color: whitesmoke;
+    justify-content: space-around;
+    
+    
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.f1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_page{
+    height: 280px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#foot5{
+    bottom: 10px;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(152, 164, 162);
+    word-spacing: 5px;
+}
+
+#foot1_p
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+#foot1_p:hover{
+    color: rgb(103, 21, 6);
+}
+.anchor a
+{
+    font-size: 32px;
+}
+
+.anchor1 
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 14px;
+}
+.anchor1 > a{
+    color: white;
+}
+.anchor2 
+{
+    
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#h3_1
+{
+    margin-top: auto;
+    font-size: 34px;
+    letter-spacing: 5px;
+    margin-bottom: -5px;
+}
+#h3_1:hover{
+    color: blueviolet;
+}
+#h3_2{
+    letter-spacing: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#h3_2:hover{
+    color: blueviolet;
+}
+#foot2 > a
+{
+    display: block;
+    margin-left: 45px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+#foot3 > a
+{
+    color: azure;
+    display: block;
+    margin-left: 20px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+#foot3 > h3
+{
+    margin-left: 20px;
+    text-align: start;
+}
+#foot4 > h3
+{
+    margin-bottom: 9px;
+    text-align: start;
+}
+#foot4 > a
+{
+    font-size: 20px;
+    
+}
+.i1
+{
+    margin-top: 9px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent; /* Remove the width of the vertical scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Make the track transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the thumb transparent */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:transparent; /* Change the color of the thumb on hover */
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent; /* Make the corner transparent */
+}
+  
+  .animate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(37,40,39);
+  }
+  
+  .menu {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+  }
+  
+  .menu li {
+    position: absolute;
+    left: 50px;
+    scale: 2;
+    list-style: none;
+    transform-origin: 130px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition-delay: calc(0.3s * var(--i));
+    transform: rotate(0deg) translateX(100px);
+    -webkit-transform: rotate(0deg) translateX(100px);
+    -moz-transform: rotate(0deg) translateX(100px);
+    -ms-transform: rotate(0deg) translateX(100px);
+    -o-transform: rotate(0deg) translateX(100px);
+  }
+  
+  .menu.active li {
+    transform: rotate(calc(360deg / 8 * var(--i)));
+    -webkit-transform: rotate(calc(360deg / 8 * var(--i)));
+    -moz-transform: rotate(calc(360deg / 8 * var(--i)));
+    -ms-transform: rotate(calc(360deg / 8 * var(--i)));
+    -o-transform: rotate(calc(360deg / 8 * var(--i)));
+  }
+  
+  .menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: rotate(calc(360deg / -8 * var(--i)));
+    -webkit-transform: rotate(calc(360deg / -8 * var(--i)));
+    -moz-transform: rotate(calc(360deg / -8 * var(--i)));
+    -ms-transform: rotate(calc(360deg / -8 * var(--i)));
+    -o-transform: rotate(calc(360deg / -8 * var(--i)));
+    color: transparent;
+    transition: 1s;
+ 
+    transition-delay: 0.5s;
+  }
+  
+  .menu.active li a {
+    color: var(--clr);
+  }
+  
+  .menu li a::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    background: var(--clr);
+    transform: rotate(calc(var(--i) * 90deg)) translate(0, 25px);
+    -webkit-transform: rotate(calc(var(--i) * 90deg)) translate(0, 25px);
+    -moz-transform: rotate(calc(var(--i) * 90deg)) translate(0, 25px);
+    -ms-transform: rotate(calc(var(--i) * 90deg)) translate(0, 25px);
+    -o-transform: rotate(calc(var(--i) * 90deg)) translate(0, 25px);
+    transition: height 0.5s, width 0.5s, transform 0.5s;
+    -webkit-transition: height 0.5s, width 0.5s, transform 0.5s;
+    -moz-transition: height 0.5s, width 0.5s, transform 0.5s;
+    -ms-transition: height 0.5s, width 0.5s, transform 0.5s;
+    -o-transition: height 0.5s, width 0.5s, transform 0.5s;
+    transition-delay: 0s, 0s, 0s;
+  }
+  
+  .menu.active li a::before {
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--clr);
+    box-sizing: border-box;
+    background: #2f363e;
+    z-index: -1;
+    transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
+    -webkit-transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
+    -moz-transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
+    -ms-transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
+    -o-transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
+    transition: transform 0.5s, height 0.5s, width 0.5s;
+    -webkit-transition: transform 0.5s, height 0.5s, width 0.5s;
+    -moz-transition: transform 0.5s, height 0.5s, width 0.5s;
+    -ms-transition: transform 0.5s, height 0.5s, width 0.5s;
+    -o-transition: transform 0.5s, height 0.5s, width 0.5s;
+    transition-delay: 1s, 1.5s, 1.5s;
+    rotate: 135deg;
+  }
+  
+  .menu.active li:hover a::before {
+    background: transparent;
+    color: #2f363e;
+    box-shadow: 0 0 10px var(--clr), 0 0 10px var(--clr), 0 0 30px var(--clr);
+  }
+  
+  .menu li a::after {
+    content: "";
+    position: absolute;
+    left: 50px;
+    width: 20px;
+    height: 2px;
+    background: var(--clr);
+    z-index: -2;
+    transform: rotate(calc(var(--i) * 0deg)) translate(15px, 0px);
+    -webkit-transform: rotate(calc(var(--i) * 0deg)) translate(15px, 0px);
+    -moz-transform: rotate(calc(var(--i) * 0deg)) translate(15px, 0px);
+    -ms-transform: rotate(calc(var(--i) * 0deg)) translate(15px, 0px);
+    -o-transform: rotate(calc(var(--i) * 0deg)) translate(15px, 0px);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition-delay: 0.5s;
+  }
+  
+  .menu.active li a::after {
+    left: 10px;
+    width: 40px;
+    transform: rotate(calc(var(--i) * 45deg)) translate(50px, 0px);
+    -webkit-transform: rotate(calc(var(--i) * 45deg)) translate(50px, 0px);
+    -moz-transform: rotate(calc(var(--i) * 45deg)) translate(50px, 0px);
+    -ms-transform: rotate(calc(var(--i) * 45deg)) translate(50px, 0px);
+    -o-transform: rotate(calc(var(--i) * 45deg)) translate(50px, 0px);
+    transition-delay: 0.5s;
+  }
+  
+  .menu.active li:hover a i {
+    position: relative;
+    color: var(--clr);
+    z-index: 1000000;
+    font-size: 30px;
+    transition: 0.5s;
+  }
+  
+  .menuToggle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    scale: 1.5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 1.5s;
+    -webkit-transition: transform 1.5s;
+    -moz-transition: transform 1.5s;
+    -ms-transition: transform 1.5s;
+    -o-transition: transform 1.5s;
+  }
+  
+  .menu.active .menuToggle {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+  }
